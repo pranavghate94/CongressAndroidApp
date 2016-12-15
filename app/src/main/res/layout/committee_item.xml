@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/committee_id"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="270sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/committee_id"
+        android:layout_alignStart="@+id/committee_id"
+        android:layout_marginTop="11dp"
+        android:id="@+id/committee_name" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/committee_name"
+        android:layout_alignStart="@+id/committee_name"
+        android:layout_marginTop="13dp"
+        android:id="@+id/chamber"
+        android:paddingBottom="5sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right_arrow"
+        android:layout_below="@+id/committee_id"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/details" />
+</RelativeLayout>

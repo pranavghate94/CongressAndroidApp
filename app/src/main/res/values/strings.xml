@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Congress API</string>
+    <string name="legislators">Legislators</string>
+    <string name="bills">Bills</string>
+    <string name="committees">Committees</string>
+    <string name="favorites">Favorites</string>
+    <string name="aboutme">About Me</string>
+    <string name="other">Other</string>
+    <string name="opendrawer">Open Drawer</string>
+    <string name="closedrawer">Close Drawer</string>
+    <string name="name">Pranav Ghate</string>
+    <string name="phone">(213) 421-7271</string>
+
+    <!-- For Legislator Details -->
+    <string name="legname">Name:</string>
+    <string name="email">Email:</string>
+    <string name="chamber">Chamber:</string>
+    <string name="contact">Contact:</string>
+    <string name="startterm">Start Term:</string>
+    <string name="endterm">End Term</string>
+    <string name="term">Term:</string>
+    <string name="office">Office:</string>
+    <string name="state">State:</string>
+    <string name="fax">Fax:</string>
+    <string name="birthday">Birthday:</string>
+
+    <string name="billid">Bill ID:</string>
+    <string name="billtype">Bill Type:</string>
+    <string name="title">Title:</string>
+    <string name="sponsor">Sponsor:</string>
+    <string name="introduced">Introduced:</string>
+    <string name="status">Status:</string>
+    <string name="congressurl">Congress URL:</string>
+    <string name="versionstatus">Version Status:</string>
+    <string name="billurl">Bill URL:</string>
+    <string name="uscid">9411336578</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="commid">Committee ID:</string>
+    <string name="cname">Name:</string>
+    <string name="comchamber">Chamber:</string>
+    <string name="parcom">Parent Committee:</string>
+</resources>

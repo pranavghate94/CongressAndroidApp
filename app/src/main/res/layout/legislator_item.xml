@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="80sp"
+        app:srcCompat="@android:color/darker_gray"
+        android:paddingBottom="5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/legislator_photo" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/legislator_photo"
+        android:layout_toEndOf="@+id/legislator_photo"
+        android:layout_marginStart="18dp"
+        android:id="@+id/legislator_name"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/legislator_initial_details"
+        android:layout_below="@+id/legislator_name"
+        android:layout_alignStart="@+id/legislator_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right_arrow"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/detailsarrow"
+        android:layout_below="@+id/legislator_name"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
